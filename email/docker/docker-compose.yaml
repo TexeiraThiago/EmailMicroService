@@ -1,0 +1,20 @@
+version: '3.9'
+
+services:
+
+  emaildb:
+    image: postgres:16.4
+    container_name: emailDB
+    restart: always
+    environment:
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME}
+    ports:
+      - "5430:5432"
+    volumes:
+      - emaildb_data:/var/lib/postgresql/data
+
+
+volumes:
+  emaildb_data:
