@@ -8,7 +8,7 @@ Este projeto é cria um microsserviço user que por meio de um broker envia uma 
 - **Spring Boot**: Framework para criação de aplicações Java, facilitando a configuração e a construção de serviços web.
 - **Spring Mail**: Módulo do Spring para enviar e-mails de forma simplificada.
 - **RabbitMQ**: Sistema de mensageria para lidar com a fila de e-mails, garantindo alta disponibilidade e processamento assíncrono.
-- **CloudAMQO**: Serviço de hospedagem gerenciado do RabbitMQ na nuvem, utilizado para escalar o sistema de mensageria.
+- **CloudAMQP**: Serviço de hospedagem gerenciado do RabbitMQ na nuvem, utilizado para escalar o sistema de mensageria.
 - **Docker**: Utilizado para containerização da aplicação, garantindo portabilidade e facilidade de deploy.
 - **PostgreSQL**: Banco de dados relacional utilizado para armazenar logs, templates de e-mails e informações de status de envio.
 - **Maven**: Gerenciador de dependências e build automation.
